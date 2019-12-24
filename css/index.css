@@ -1,0 +1,280 @@
+/* Style css de base */
+
+* {
+    font-family: Arial, 'Times New Roman', Times, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body {
+    margin:0;
+}
+
+p, h1,h2,h3{
+    color: #333333;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+    color:#333333;
+}
+
+a:hover {
+    color: #00915A;
+}
+
+/* Style header */
+
+#advertisement{
+    display:flex;
+    justify-content:center;
+}
+
+.advertisement_width{
+    text-align: end;
+    width:1160px;
+}
+
+
+#advertisement img{
+    height:12px;
+    width:12px;
+    padding-left:170px;
+}
+
+#advertisement a {
+    text-decoration:underline;
+}
+
+.advertisement_width p{
+    display: inline-block;
+    font-size:14px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+}
+
+/* header */
+
+
+header{
+    display:flex;
+    flex-direction:column;
+    height:574px;
+    background-color:rgba(255, 0, 0, 0.145098039215686);
+    align-items:center;
+}
+
+#header_top {
+    padding-top: 30px;
+}
+
+.header_width{
+    width:1160px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header_top img{
+    border-radius:20px;
+    margin-right:10px;
+}
+
+#header_top ul {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.li_center {
+    display: flex;
+    align-items: center;
+}
+
+.li_center a {
+    font-size:20px;
+}
+
+.small_frame_square {
+    border: 1px solid #333333;
+    background-color:white;
+    padding:10px 25px 10px 25px;
+}
+
+.small_frame_square a {
+    font-size:14px;
+}
+
+a.small_frame_square{
+    color: #00915A;
+}
+
+#header_bottom ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:50px;
+}
+
+#header_bottom li {
+    padding:15px 10px 33px 20px;
+    background-color:rgba(255, 255, 255, 0.203921568627451);
+    width:233px;
+    
+}
+
+.selected {
+    border:1px solid #333333;
+    background-color:rgba(255, 255, 255, 0.616) !important;
+}
+
+.unselected {
+    border-right:1px solid #333333;
+}
+
+.medium_frame_square h3{
+    font-size:14px;
+    font-weight: normal;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.medium_frame_square p {
+    font-size:18px;
+}
+
+/* sort by */
+
+#container_sort_by{
+    border-top:1px solid #333333;
+    border-bottom:1px solid #333333;
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+#sort_by{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+}
+
+
+                        /* left */
+
+#sort_by_left {
+    display:flex;
+    align-items:center;
+}
+
+#sort_by_left p, #sort_by_right p {
+    padding-right:10px;
+}
+
+#sort_by_left ul{
+    display:flex;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+}
+
+#sort_by_left li {
+    padding-right:10px;
+    
+}
+
+#sort_by_left a {
+    font-size:14px;
+    padding:9px 15px 9px 15px;
+    border:1px solid #333333;
+    border-radius:3px;
+    margin-right:10px;
+}
+
+.focus {
+    background-color: #333333;;
+}
+
+a.focus {
+    color:white !important;
+}
+
+                    /* right */
+
+#sort_by_right {
+    display:flex;
+    align-items:center;
+}
+
+#sort_by_right ul {
+    display:flex;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+}
+
+#sort_by_right li{
+    border:1px solid #333333;
+    border-radius:3px;
+    padding:9px 15px 9px 15px;
+    margin-right:10px;
+    display:flex;
+    align-items:center;
+}
+
+#sort_by_right a {
+    font-size: 14px;
+}
+
+#sort_by_right img {
+    width:11px;
+    height:11px;
+    padding-left:13px;
+}
+
+/* section */
+
+section {
+    width:1160px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin:auto;
+    padding-bottom:40px;
+}
+
+section p, section h3, .project_icons {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.project {
+    border:1px solid #333333;
+    border-radius:3px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    width:275px;
+}
+
+.project img {
+    border-bottom:1px solid #333333;
+}
+
+.project h3{
+    font-size:14px;
+    font-weight:normal;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.project p, .project_icons img, .project img {
+    margin-bottom:20px;
+}
+
+.project_icons img{
+    border-radius:8px;
+    border-bottom:none;
+}
