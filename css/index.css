@@ -186,6 +186,10 @@ a.small_frame_square{
     
 }
 
+#sort_by_left p, #sort_by_right p {
+    font-size:14px;
+}
+
 #sort_by_left a {
     font-size:14px;
     padding:9px 15px 9px 15px;
@@ -219,7 +223,6 @@ a.focus {
     border:1px solid #333333;
     border-radius:3px;
     padding:9px 15px 9px 15px;
-    margin-right:10px;
     display:flex;
     align-items:center;
 }
@@ -268,6 +271,10 @@ section p, section h3, .project_icons {
     font-weight:normal;
     margin-block-start: 10px;
     margin-block-end: 10px;
+}
+
+.project p {
+    font-size:18px;
 }
 
 .project p, .project_icons img, .project img {
